@@ -1,0 +1,12 @@
+
+
+@function contrasto($colore)
+{
+    @if $colore == white{
+       @return black; 
+    }
+    @else if  $colore == black{
+       @return white;
+        
+    } 
+}

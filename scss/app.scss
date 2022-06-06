@@ -1,0 +1,14 @@
+@import "../node_modules/bootstrap/scss/bootstrap";
+@import 'function';
+
+$bg_color:white;    
+
+
+body{
+   background-color: $bg_color;
+    color:contrasto($bg_color);
+}
+section:first-child{
+    background-image: url('../img/hk.jpg');
+    background-size: contain;
+}
